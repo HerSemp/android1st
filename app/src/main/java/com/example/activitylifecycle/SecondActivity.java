@@ -18,7 +18,7 @@ public class SecondActivity extends AppCompatActivity {
     public void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
-        Toast.makeText(this, "Oncreate started", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "OnCreate started", Toast.LENGTH_SHORT).show();
 
         bt_back = findViewById(R.id.bt_back);
         bt_next = findViewById(R.id.bt_next);
@@ -59,19 +59,19 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onRestart() {
         super.onRestart();
-        Toast.makeText(this, "onRestat started", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "onRestart started", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     protected void onStop() {
         super.onStop();
-        Toast.makeText(this, "onstop started", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "onStop started", Toast.LENGTH_SHORT).show();
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        Toast.makeText(this, "on destroy started", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "onDestroy started", Toast.LENGTH_SHORT).show();
     }
 
     @Override
