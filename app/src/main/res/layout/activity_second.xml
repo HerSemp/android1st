@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx_secondScreen"
+        android:text="Welcome to Second Screen"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_back"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:backgroundTint="#800000"
+        android:layout_marginTop="40dp"
+
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_next"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:backgroundTint="#CDDC39"
+        android:layout_marginTop="40dp"
+        />
+
+
+</LinearLayout>
