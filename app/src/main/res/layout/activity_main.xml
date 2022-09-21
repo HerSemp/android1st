@@ -18,6 +18,19 @@
         android:textSize="20sp"
         android:textColor="@color/black"
         />
+
+    <EditText
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_centerInParent="true"
+        android:alpha="1"
+        android:autofillHints="name"
+        android:background="@color/white"
+        android:backgroundTint="@color/white"
+        android:hint="Name"
+        android:inputType="textEmailAddress" />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
